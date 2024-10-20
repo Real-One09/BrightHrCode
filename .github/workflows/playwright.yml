@@ -20,7 +20,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Headless Preparation
-      run: xvfb-run './home/runner/work/BrightHrCode/BrightHrCode'
+      run: xvfb-run /home/runner/work/BrightHrCode/BrightHrCode
     - name: Run Playwright tests
       run: npm run test
    # - uses: actions/upload-artifact@v4
