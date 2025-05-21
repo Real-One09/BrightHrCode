@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-      "test": "npx cucumber-js --tags  @Employee --exit"
+    
+
+      "test": "npx cucumber-js --tags  @Employee --exit --format html:cucumber-report.html"
+
+
+      
   },
   "keywords": [],
   "author": "",
