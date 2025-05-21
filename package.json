@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  
-    "test": "npx cucumber-js --format @cucumber/html-formatter --format-options '{\"output\":\"./playwright-report/cucumber-report.html\"}' --tags @Employee --exit"
+      "test": "npx cucumber-js --tags  @Employee --exit"
   },
   "keywords": [],
   "author": "",
