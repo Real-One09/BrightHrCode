@@ -23,8 +23,10 @@ AfterStep(async function ({ result }) {
     }
 });
 
+
+
 After(async function () {
-    console.log("I am last to execute");
+    console.log("All test case done");
 });
 
 

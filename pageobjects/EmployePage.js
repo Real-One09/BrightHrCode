@@ -16,7 +16,7 @@ class EmployePage {
         this.startDateInput = page.locator('#startDate');
         this.jobTitleSelect = page.locator('#jobTitle');
         this.sendEmailButton = page.getByLabel("registrationEmail");
-        this.userAddEmployeeButton = page.locator('//button[text()="Add employee"]')
+        this.userAddEmployeeButton = page.locator('//button[text()="Add employee"]');
         this.saveNewEmployeeButton = page.locator("button[type='submit']");
         this.userEmployeesTab = page.locator("//div[@title='Employees']");
         this.datePickerElement = page.getByLabel('Select date');
@@ -66,8 +66,7 @@ class EmployePage {
 
     async calenderValidations(startDate) {
 
-
-        await this.page.getByTestId('input-selector').click();
+       await this.page.getByTestId('input-selector').click();
         for (const day of await this.userDaysInMonth.all()) {
             if (await day.getAttribute('aria-label') === startDate) {
                 await day.click();

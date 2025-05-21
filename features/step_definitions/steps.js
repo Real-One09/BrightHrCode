@@ -17,7 +17,6 @@ Given('I login to BrightHR application with valid data {string} and {string}', {
 
 When('I fill in the form with valid data {string} {string} {string} {string} {string} {string}', { timeout: 100 * 1000 }, async function (firstname, lastname, EmailAddress, Mobile, startDate, JobTitle) {
 
-
     this.employePage = this.pooManager.getEmployePage();
     await this.employePage.navigateToemployeeAddPanal();
     await this.employePage.ValidDetail(firstname, lastname, EmailAddress, Mobile, startDate, JobTitle,);
