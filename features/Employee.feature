@@ -11,5 +11,5 @@ Feature: Employee Management
    
     Examples:
       | First Name | last Name | Email                | Mobile     | startDate       | JobTitle      | username             | password     |
-      | Ridd       | Test      | RidTest@brighthr.com | 1234567890 | Tue Oct 01 2024 | Test Engineer | leu7edsq@getnada.com | A1234567890- |
-      | Ayo        | Test      | AyoTest@brighthr.com | 1234567890 | Fri Oct 25 2024 | Test Engineer | leu7edsq@getnada.com | A1234567890- |
+      | Ridd       | Test      | RidTest@brighthr.com | 1234567890 | Tue Oct 01 2024 | Test Engineer | qaAutomationTechTask@grr.la | A1234567890- |
+      | Ayo        | Test      | AyoTest@brighthr.com | 1234567890 | Fri Oct 25 2024 | Test Engineer | qaAutomationTechTask@grr.la | A1234567890- |
