@@ -5,8 +5,10 @@ class LoginPage{
     
         this.page = page;
         this.loginInbutton = page.locator("[type='submit']");
-        this.userName = page.locator('#email');
+        this.userName = page.locator('#username');
         this.password = page.locator('#password');
+
+        
         
     
     }
